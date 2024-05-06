@@ -1,3 +1,13 @@
+## C++ rewrite compatible with pico sdk and arduino
+
+Original code can be found here: [https://github.com/KevinOConnor/can2040](https://github.com/KevinOConnor/can2040)
+
+Things done: Rewrote entire API to C++ class, change code style to lowerCamelCase, made it easier to use, added transmit/receive example
+
+---
+
+Original readme:
+
 The can2040 project is a software CAN bus implementation for Raspberry
 Pi [rp2040](https://www.raspberrypi.com/products/rp2040/)
 micro-controllers.  It enables an rp2040 chip to implement
